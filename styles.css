@@ -1,0 +1,115 @@
+body {
+  margin: 50px;
+  font-family: 'Amatic SC', cursive;
+  background-image: url('./albuca.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  font-size: 50px;
+  color: white;
+  background-color: #336128;
+  margin-bottom: 50px;
+}
+
+.contentShown {
+  text-align: center;
+}
+
+.player {
+  margin-bottom: 50px;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+
+form {
+  display: flex;
+  flex-flow: row;
+  justify-content:center;
+}
+
+.input {
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 5%;
+  padding-left: 10px;
+}
+
+.search-button {
+  width: 10%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.search-button : hover {
+  background-color: #84b567;
+  color: white;
+}
+
+
+.searchResults {
+  color: #45913b;
+}
+
+.results {
+  display:flex;
+  flex-wrap: wrap;
+  color:#84b567;
+  width: 100%;
+}
+.results > div {
+  width: 20%;
+  padding: 1% 1%;
+  margin: 1% 1%;
+}
+
+.track{
+font-size: 20px;
+color: white;
+}
+
+.artist{
+font-size: 30px;
+color:white;
+}
+
+img {
+ width: 70%;
+ height: 70%;
+}
+
+
+/*.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    /*transition-duration: 0.4s;
+}*/
+
+/*.button .play {
+  display:none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover .pause{
+    background-color: #4CAF50; /* Green */
+    /*color: white;
+}
+
+.button:hover .play {
+  display:inline;
+}*/
+
+/*button .comment { display: none; }
+button:hover .replies { display: none; }
+button:hover .comment { display: inline; }*/
+
+/*#45913b
+#336128
+#84b567*/
